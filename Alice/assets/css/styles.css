@@ -1,0 +1,183 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    background-color: #5ce1f4;
+    color: #ffffff;
+}
+.page-container {
+    background-position: center, center;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.alice-output {
+    max-width: 400px;
+    padding-top: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.input-container {
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.alice-input {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 20px #ffffff;
+    background-color: #ffffff;
+    padding: 10px 40px;
+    text-align: center;
+    color: #c2c2c2;
+    margin-bottom: 20px;
+}
+
+.alice-button {
+    border-radius: 25px;
+    border: none;
+    display: block;
+    margin: 20px auto 0px auto;
+    box-shadow: 0px 0px 20px #ffffff;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #c2c2c2;
+}
+
+.alice-input:focus {
+    outline: none;
+}
+
+.alice-button:focus {
+    outline: none;
+}
+
+#name-input, #name-button, #search-input, #search-button, #searchTerm, #postAlice-btn, 
+#hijack-yes, #hijack-no, #reset-button {
+    display: none;
+    font-family: 'VT323', monospace;
+    font-size: 20px;
+    min-width: 80px;
+}
+
+#hijack-yes, #hijack-no {
+    margin-right: 10px;
+}
+
+#name-input {
+    margin-top: 20px;
+}
+
+#reset-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 5px 10px;
+    font-size: 18px;
+    min-width: 60px;
+    cursor: pointer;
+}
+
+#alice-speech {
+    opacity: 0;
+    font-family: 'VT323', monospace;
+    font-size: 30px;
+}
+
+.jumbotron-fluid {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #b4f2ff;
+    text-align: center;
+    border-bottom: 5px solid #f4ed46;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.btn-light {
+    /* border: none;
+    background-color: #ffffff;
+    border-radius: 25px; */
+    padding: 15px 20px;
+    color: #5ce1f4;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 5px 2px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+
+.gifButton {
+    height: 245px;
+    width: 25%;
+    max-width: 200px;
+    border: 10px solid;
+    border-color: white;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#postAlice {
+    text-align: center;
+}
+
+#afterLesson {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.exitBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+#yesBtn, #noBtn {
+    display: inline-block;
+    margin: 10px;
+}
+
+/* .alice-carousel {
+    display: none;
+} */
+
+.carousel-cell {
+    width: 500px;
+    height: 300px;
+    margin-right: 10px;
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-container {
+    display: block;
+}
+
+.bsodImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
